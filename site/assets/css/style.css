@@ -327,6 +327,19 @@ p { margin: 0 0 1.1em; }
   background: #000; display: block;
 }
 
+/* Širok logotip namesto fotografije — .article__hero obrezuje, tu hočemo cel znak. */
+.logo-banner {
+  margin: 0 0 32px;
+  padding: 40px 24px;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+.logo-banner img {
+  width: 100%; max-width: 520px; height: auto;
+  margin-inline: auto;
+}
+
 /* lightbox */
 .lightbox {
   position: fixed; inset: 0; z-index: 200;

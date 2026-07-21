@@ -18,6 +18,7 @@ $pairs = [ordered]@{
   'startaupi.html' = 'en/startups.html'
   'arhiv.html'     = 'en/archive.html'
   'o-nas.html'     = 'en/about.html'
+  'google-org-impact-challenge.html' = 'en/google-org-impact-challenge.html'
 }
 
 $acts = Get-Content (Join-Path $site 'data\activities-index.json') -Raw -Encoding utf8 | ConvertFrom-Json

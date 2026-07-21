@@ -109,6 +109,18 @@
     <changefreq>yearly</changefreq>
   </url>
   <url>
+    <loc>https://stoudio.turistica.si/google-org-impact-challenge.html</loc>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://stoudio.turistica.si/google-org-impact-challenge.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://stoudio.turistica.si/en/google-org-impact-challenge.html"/>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>https://stoudio.turistica.si/en/google-org-impact-challenge.html</loc>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://stoudio.turistica.si/google-org-impact-challenge.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://stoudio.turistica.si/en/google-org-impact-challenge.html"/>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
     <loc>https://stoudio.turistica.si/aktivnost.html?id=recZWNLbVVlYc06NC</loc>
     <xhtml:link rel="alternate" hreflang="sl" href="https://stoudio.turistica.si/aktivnost.html?id=recZWNLbVVlYc06NC"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://stoudio.turistica.si/en/activity.html?id=recZWNLbVVlYc06NC"/>

@@ -20,7 +20,10 @@
     startaupi: { sl: 'startaupi.html', en: 'startups.html' },
     arhiv:     { sl: 'arhiv.html',     en: 'archive.html' },
     'o-nas':   { sl: 'o-nas.html',     en: 'about.html' },
-    aktivnost: { sl: 'aktivnost.html', en: 'activity.html' }
+    aktivnost: { sl: 'aktivnost.html', en: 'activity.html' },
+    // Ni v navigaciji - dosegljiva je prek logotipa Google.org med podporniki.
+    'google-impact': { sl: 'google-org-impact-challenge.html',
+                       en: 'google-org-impact-challenge.html' }
   };
 
   /* Vrstni red kategorij v navigaciji; ključ ustreza polju `category` v JSON-u. */
