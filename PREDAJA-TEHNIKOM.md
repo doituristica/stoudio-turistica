@@ -3,8 +3,8 @@
 Stran sTOUdio Turistica je pripravljena in že teče. Za prehod s Softra je potrebna
 **ena sprememba v DNS-u** — vsebine ni treba prenašati na noben strežnik.
 
-- **Živ predogled:** https://g0dex.github.io/stoudio-turistica/
-- **Izvorna koda:** https://github.com/g0dex/stoudio-turistica
+- **Živ predogled:** https://doituristica.github.io/stoudio-turistica/
+- **Izvorna koda:** https://github.com/doituristica/stoudio-turistica
 
 ---
 
@@ -18,14 +18,14 @@ Stran sTOUdio Turistica je pripravljena in že teče. Za prehod s Softra je potr
 > ukinjamo. Pripravili smo nadomestno statično različico z enako vsebino, ki je že
 > objavljena in deluje:
 >
-> **https://g0dex.github.io/stoudio-turistica/**
+> **https://doituristica.github.io/stoudio-turistica/**
 >
 > Gostuje na GitHub Pages, kar za nas pomeni brez stroškov in brez vzdrževanja
 > strežnika. Prosim za **eno spremembo v DNS coni `turistica.si`**:
 >
 > ```
 > briši:   stoudio   A       35.158.87.123
-> dodaj:   stoudio   CNAME   g0dex.github.io.
+> dodaj:   stoudio   CNAME   doituristica.github.io.
 > ```
 >
 > Če vaš sistem za to ime ne dovoli zapisa CNAME, delujejo tudi štirje A zapisi:
@@ -66,13 +66,13 @@ Stran sTOUdio Turistica je pripravljena in že teče. Za prehod s Softra je potr
 Ukaz za drugi korak (ko DNS že kaže na GitHub):
 
 ```powershell
-gh api -X PUT repos/g0dex/stoudio-turistica/pages -f cname=stoudio.turistica.si
+gh api -X PUT repos/doituristica/stoudio-turistica/pages -f cname=stoudio.turistica.si
 ```
 
 Nato preveri stanje certifikata:
 
 ```powershell
-gh api repos/g0dex/stoudio-turistica/pages
+gh api repos/doituristica/stoudio-turistica/pages
 ```
 
 ---
@@ -95,24 +95,18 @@ se ne spremeni.
 
 ---
 
-## Kaj je treba urediti na naši strani
+## Lastništvo
 
-Repozitorij je zaenkrat na **osebnem računu** `g0dex`. Za arhiv fakultetnega programa
-to ni dobro — če račun ugasne ali se lastnik odseli, fakulteta izgubi stran in nima
-nobenega vzvoda.
+Repozitorij je v organizaciji **`doituristica`**, ne na osebnem računu. To pomeni, da
+stran ni vezana na posameznika — če kdo od sodelujočih odide, fakulteta obdrži nadzor.
 
-Priporočen popravek (brezplačen, ~10 minut):
+**Ostaja en korak:** organizacija ima trenutno samo enega člana. Dokler je tako, je
+zaščita le navidezna — ob izgubi tega računa ni poti nazaj. Povabi vsaj še enega
+lastnika s fakultete (npr. Dejana Križaja kot idejnega vodjo programa):
 
-1. Na <https://github.com/account/organizations/new> ustvari brezplačno organizacijo,
-   npr. `ftsturistica` ali `stoudio-turistica`.
-2. Povabi vsaj še enega lastnika s fakultete (npr. Dejana Križaja kot idejnega vodjo).
-3. Repozitorij prenesi v organizacijo:
-   `Settings → General → Danger Zone → Transfer ownership`.
-4. Po prenosu se spremeni tudi naslov predogleda in cilj CNAME zapisa —
-   `g0dex.github.io` postane `<organizacija>.github.io`. **Zato to naredi pred
-   prošnjo za DNS**, da tehnikom ni treba spreminjati dvakrat.
+`https://github.com/orgs/doituristica/people` → **Invite member** → vloga **Owner**
 
-Po prenosu ostaneš vzdrževalec z vsemi pravicami, lastništvo pa je institucionalno.
+Priporočljivo je tudi, da ima vsak lastnik vklopljeno dvostopenjsko avtentikacijo.
 
 ---
 

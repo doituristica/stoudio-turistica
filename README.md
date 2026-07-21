@@ -1,6 +1,6 @@
 # sTOUdio Turistica — statična spletna stran
 
-**Živ predogled:** <https://g0dex.github.io/stoudio-turistica/>
+**Živ predogled:** <https://doituristica.github.io/stoudio-turistica/>
 
 
 Poustvarjena različica [stoudio.turistica.si](https://stoudio.turistica.si/) kot **popolnoma statična
