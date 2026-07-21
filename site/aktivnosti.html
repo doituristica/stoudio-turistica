@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="sl">
+<head>
+<meta charset="utf-8">
+<title>Preusmeritev …</title>
+<meta name="robots" content="noindex">
+<script>
+  /* Združljivost s starimi Softr povezavami: /aktivnosti?recordId=recXXXX */
+  (function () {
+    var p = new URLSearchParams(location.search);
+    var id = p.get('recordId') || p.get('id');
+    location.replace(id ? 'aktivnost.html?id=' + encodeURIComponent(id) : 'arhiv.html');
+  })();
+</script>
+</head>
+<body>
+<p>Preusmerjam … <a href="arhiv.html">Nadaljuj na arhiv</a>.</p>
+</body>
+</html>

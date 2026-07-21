@@ -1,0 +1,10 @@
+/* Self-hosted Noto Sans (variable, 300-700).
+   subset of 120 characters
+   Do not edit by hand - regenerate with tools\fetch-fonts.ps1 */
+@font-face {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+  src: url("../fonts/noto-sans-subset.woff2") format("woff2");
+}

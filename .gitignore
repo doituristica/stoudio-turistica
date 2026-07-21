@@ -1,0 +1,24 @@
+# --- NE objavljaj: raziskovalni podatki, ki ne spadajo k tej strani ----------
+# Datoteka je ostanek Planica 2026 raziskave in vsebuje anketne odgovore.
+# V javnem repozitoriju nima kaj iskati.
+baza 2026 prečiščena.xlsx
+*.sav
+*.xlsx
+
+# --- osebni podatki ----------------------------------------------------------
+# Surov odgovor Airtabla vsebuje e-naslove sodelujočih. Objavljena različica
+# (data/raw_arhiv.json) je očiščena, polna ostane samo lokalno.
+*.private.json
+
+# --- lokalne nastavitve ------------------------------------------------------
+.claude/settings.local.json
+
+# --- smeti operacijskega sistema in urejevalnikov ----------------------------
+Thumbs.db
+ehthumbs.db
+desktop.ini
+.DS_Store
+*~
+*.swp
+.vscode/
+.idea/

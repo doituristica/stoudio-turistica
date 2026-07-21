@@ -1,0 +1,1110 @@
+[
+    {
+        "id":  "recZWNLbVVlYc06NC",
+        "slug":  "living-learning-lab",
+        "title":  "Living Learning Lab",
+        "type":  "sTOUdio WEEKEND",
+        "category":  "vikendi",
+        "catLabel":  "Vikend",
+        "catLabelEn":  "Weekend",
+        "start":  "2023-06-24",
+        "finish":  "2023-06-29",
+        "lead":  "Living Learning Labi se osredotočajo na oživljanje podeželskih in perifernih destinacij s pomočjo lokalne mladine in odgovornih popotnikov.",
+        "leadEn":  "Living Learning Labs focus on revitalizing rural and peripheral destinations with the help of local youth and responsible travelers.",
+        "organizers":  [
+                           "Tadej Rogelja",
+                           "Zarja Bašelj",
+                           "Rudi Medved",
+                           "Jaka Godejša",
+                           "Dejan Krizaj"
+                       ],
+        "cover":  {
+                      "src":  "assets/img/recZWNLbVVlYc06NC/01.jpg",
+                      "thumb":  "assets/img/recZWNLbVVlYc06NC/01-t.jpg",
+                      "kind":  "image",
+                      "w":  767,
+                      "h":  512
+                  }
+    },
+    {
+        "id":  "reclzJrJL2g5RRkm9",
+        "slug":  "pkp-digitalising-the-periphery-knowledge-transmission-event",
+        "title":  "PKP: Digitalising the Periphery - knowledge transmission event",
+        "type":  "sTOUdio DATE",
+        "category":  "zmenki",
+        "catLabel":  "Zmenek",
+        "catLabelEn":  "Date",
+        "start":  "2023-05-26",
+        "finish":  "2023-05-26",
+        "lead":  "Študentje UP so predstavili rezultate PKP projekta \"Digitalizirajmo periferijo\". Predstavili so številne digitalne rešitve, ki so jih razvili za mikro ponudnike, s čimer so povečali njihovo spletno vidljivost.",
+        "leadEn":  "The students of UP presented the results of the PKP project \"Digitalizirajmo periferijo\". They shared their numerous digital solutions developed for micro providers, enhancing their online visibility.",
+        "organizers":  [
+                           "Jaka Godejša",
+                           "Tadej Rogelja"
+                       ],
+        "cover":  {
+                      "src":  "assets/img/reclzJrJL2g5RRkm9/01.jpg",
+                      "thumb":  "assets/img/reclzJrJL2g5RRkm9/01-t.jpg",
+                      "kind":  "image",
+                      "w":  1249,
+                      "h":  937
+                  }
+    },
+    {
+        "id":  "recsxPS9aF7wqyq21",
+        "slug":  "stoudio-trip-slovenian-istria",
+        "title":  "sTOUdio TRIP: Slovenian Istria",
+        "type":  "sTOUdio TRIP",
+        "category":  "izleti",
+        "catLabel":  "Izlet",
+        "catLabelEn":  "Trip",
+        "start":  "2023-05-07",
+        "finish":  "2023-05-07",
+        "lead":  "Skupina študentov se je v okviru projekta \"Digitalizirajmo periferijo podala na terenski obisk v Slovensko Istro, da bi bolje razumela izzive in poslovanje mikro ponudnikov na podeželju!",
+        "leadEn":  "A group of students went on a field visit to Slovenian Istria in the framework of the project \"Digitising the Periphery\" to better understand the challenges and business of micro providers in rural areas!",
+        "organizers":  [
+                           "Jaka Godejša",
+                           "Tadej Rogelja"
+                       ],
+        "cover":  {
+                      "src":  "assets/img/recsxPS9aF7wqyq21/01.jpg",
+                      "thumb":  "assets/img/recsxPS9aF7wqyq21/01-t.jpg",
+                      "kind":  "image",
+                      "w":  1080,
+                      "h":  1080
+                  }
+    },
+    {
+        "id":  "recvrVALVozgxsUUO",
+        "slug":  "stoudio-date-domen-kert",
+        "title":  "sTOUdio DATE: Domen Kert",
+        "type":  "sTOUdio DATE",
+        "category":  "zmenki",
+        "catLabel":  "Zmenek",
+        "catLabelEn":  "Date",
+        "start":  "2023-04-25",
+        "finish":  "2023-04-25",
+        "lead":  "Na sTOUdio zmenku z Domnom Kertom smo raziskovali svet growth marketinga in coworking prostorov, kjer so udeleženci pridobili dragocene vpoglede in nasvete za svoje podjetniške poti.",
+        "leadEn":  "On the sTOUdio date with Domn Kert, we explored the world of growth marketing and coworking spaces, where participants gained valuable insights and advice for their entrepreneurial journeys.",
+        "organizers":  [
+                           "Jaka Godejša",
+                           "Timotej Žagar Hrovatin"
+                       ],
+        "cover":  {
+                      "src":  "assets/img/recvrVALVozgxsUUO/01.jpg",
+                      "thumb":  "assets/img/recvrVALVozgxsUUO/01-t.jpg",
+                      "kind":  "image",
+                      "w":  1023,
+                      "h":  512
+                  }
+    },
+    {
+        "id":  "recOOx2XXROisjoiM",
+        "slug":  "stoudio-talk-web3-tourism-and-events",
+        "title":  "sTOUdio TALK: Web3, Tourism and Events",
+        "type":  "sTOUdio TALK",
+        "category":  "pogovori",
+        "catLabel":  "Pogovor",
+        "catLabelEn":  "Talk",
+        "start":  "2023-04-05",
+        "finish":  "2023-04-05",
+        "lead":  "V sodelovanju z Univerzo Westminster iz Londona smo organizirali online panel o Internetu 3.0 (web3) in njegovemu vplivu na turizem in dogodke.",
+        "leadEn":  "In cooperation with the University of Westminster, London, we organised an online panel on Web3 and its impact on tourism and events.",
+        "organizers":  [
+                           "Jaka Godejša"
+                       ],
+        "cover":  {
+                      "src":  "assets/img/recOOx2XXROisjoiM/01.jpg",
+                      "thumb":  "assets/img/recOOx2XXROisjoiM/01-t.jpg",
+                      "kind":  "image",
+                      "w":  978,
+                      "h":  512
+                  }
+    },
+    {
+        "id":  "recOFaEYY8a1eOb51",
+        "slug":  "stoudio-date-challenges-of-rural-tourism-entrepreneurship-with-robi-marsic",
+        "title":  "sTOUdio DATE - Challenges of rural tourism entrepreneurship with Robi Marsič",
+        "type":  "sTOUdio DATE",
+        "category":  "zmenki",
+        "catLabel":  "Zmenek",
+        "catLabelEn":  "Date",
+        "start":  "2023-01-20",
+        "finish":  "2023-01-20",
+        "lead":  "Robi Marsič, novoizvoljeni predsednik zadruge Zakladi Istre, je razpravljal o izzivih s katerimi se soočajo ponudniki turizma na podeželju ter pomenu sodelovanja, spremembe mišljenja in pristopov od spodaj navzgor.",
+        "leadEn":  "Robi Marsič, the newly elected President of the Cooperative Zakladi Istre, discussed the challenges faced by rural tourism providers and the importance of collaboration, a change in mindset, and bottom-up approaches at the sTOUdio DATE event.",
+        "organizers":  [
+                           "Tadej Rogelja",
+                           "Jaka Godejša"
+                       ],
+        "cover":  {
+                      "src":  "assets/img/recOFaEYY8a1eOb51/01.jpg",
+                      "thumb":  "assets/img/recOFaEYY8a1eOb51/01-t.jpg",
+                      "kind":  "image",
+                      "w":  384,
+                      "h":  512
+                  }
+    },
+    {
+        "id":  "rec5O4DRfqlRYfIKG",
+        "slug":  "stoudio-talk-matjaz-tancic",
+        "title":  "sTOUdio talk: Matjaž Tančič",
+        "type":  "sTOUdio TALK",
+        "category":  "pogovori",
+        "catLabel":  "Pogovor",
+        "catLabelEn":  "Talk",
+        "start":  "2023-01-09",
+        "finish":  "2023-01-09",
+        "lead":  "UP FTŠ sTOUdio Turistica je gostila sTOUdio TALK s fotografom Matjažem Tančičem. Predstavil je svojo pot po končanem študiju na Turistici, življenju na Kitajskem in fotografiranju marsičesa zanimivega, od modelov do vsakdanjih ljudi, pokrajin in dogodkov.",
+        "leadEn":  "UP FTŠ sTOUdio Turistica hosted a sTOUdio TALK with photographer Matjaž Tančič. He talked of his journey after graduating from Turistica, living in China and photographing many interesting scenes, from models to everyday people, landscapes and events.",
+        "organizers":  [
+                           "Jaka Godejša",
+                           "Tjaša Dobrin Kemperl",
+                           "Annamarie Strmecki"
+                       ],
+        "cover":  {
+                      "src":  "assets/img/rec5O4DRfqlRYfIKG/01.jpg",
+                      "thumb":  "assets/img/rec5O4DRfqlRYfIKG/01-t.jpg",
+                      "kind":  "image",
+                      "w":  512,
+                      "h":  683
+                  }
+    },
+    {
+        "id":  "recW9Ry2KExLncQte",
+        "slug":  "first-nft-dinner-in-slovenia",
+        "title":  "First NFT Dinner in Slovenia",
+        "type":  "sTOUdio PROJECT",
+        "category":  "projekti",
+        "catLabel":  "Projekt",
+        "catLabelEn":  "Project",
+        "start":  "2022-08-26",
+        "finish":  "2022-08-26",
+        "lead":  "Študenti in mentorji sTOUdia smo skupaj z restavracijo EDEN na vrtu Galerije Kržišnik v Žireh organizirali prvo večerjo v Sloveniji, kjer so gostje opravili rezervacijo z nakupom NFT.",
+        "leadEn":  "sTOUdio students and mentors, together with the restaurant EDEN in the garden of the Kržišnik Gallery in Žiri, organised the first dinner in Slovenia, where guests made a reservation by purchasing an NFT.",
+        "organizers":  [
+                           "Jaka Godejša",
+                           "Rudi Medved"
+                       ],
+        "cover":  {
+                      "src":  "assets/img/recW9Ry2KExLncQte/01.jpg",
+                      "thumb":  "assets/img/recW9Ry2KExLncQte/01-t.jpg",
+                      "kind":  "image",
+                      "w":  512,
+                      "h":  512
+                  }
+    },
+    {
+        "id":  "rectOVn8uoGVN1wjL",
+        "slug":  "stoudio-talk-klemen-furlan-gogiro-startup",
+        "title":  "sTOUdio TALK: Klemen Furlan - GoGiro startup",
+        "type":  "sTOUdio TALK",
+        "category":  "pogovori",
+        "catLabel":  "Pogovor",
+        "catLabelEn":  "Talk",
+        "start":  "2022-05-31",
+        "finish":  "2022-05-31",
+        "lead":  "UP FTŠ sTOUdio Turistica je gostil spletni pogovor s Klemnom Furlanom, direktorjem GoGiro, turističnega start-upa, ki izstopa po inovativnih rešitvah za mobilnost v turizmu.",
+        "leadEn":  "UP FTŠ sTOUdio Turistica hosted an online conversation with Klemen Furlan, CEO of GoGiro, a tourism start-up that stands out for its innovative solutions for mobility in tourism.",
+        "organizers":  [
+                           "Jaka Godejša",
+                           "Miha Bratec",
+                           "Tajda Gradišnik"
+                       ],
+        "cover":  {
+                      "src":  "assets/img/rectOVn8uoGVN1wjL/01.jpg",
+                      "thumb":  "assets/img/rectOVn8uoGVN1wjL/01-t.jpg",
+                      "kind":  "image",
+                      "w":  903,
+                      "h":  512
+                  }
+    },
+    {
+        "id":  "recBORUq8EAciX7bM",
+        "slug":  "stoudio-date-unesco-panel",
+        "title":  "sTOUdio DATE - UNESCO panel",
+        "type":  "sTOUdio DATE",
+        "category":  "zmenki",
+        "catLabel":  "Zmenek",
+        "catLabelEn":  "Date",
+        "start":  "2022-05-17",
+        "finish":  "2022-05-17",
+        "lead":  "Dogodek, ki so ga študentje organizirali v okviru UNESCOVE konference v Portorožu. Na online okrogli mizi so gostili zanimive goste iz Egipta,  Italije in Berlina.",
+        "leadEn":  "An event organised by students in the framework of the UNESCO conference in Portorož. They hosted interesting guests from Egypt, Italy and Berlin for an online round table.",
+        "organizers":  [
+                           "Zarja Bašelj",
+                           "Rudi Medved",
+                           "Mladen Mitrović"
+                       ],
+        "cover":  {
+                      "src":  "assets/img/recBORUq8EAciX7bM/01.jpg",
+                      "thumb":  "assets/img/recBORUq8EAciX7bM/01-t.jpg",
+                      "kind":  "image",
+                      "w":  910,
+                      "h":  512
+                  }
+    },
+    {
+        "id":  "recKsIK8l401YuK1U",
+        "slug":  "stoudio-date-nft-martin-petric",
+        "title":  "sTOUdio DATE - NFT Martin Petrič",
+        "type":  "sTOUdio DATE",
+        "category":  "zmenki",
+        "catLabel":  "Zmenek",
+        "catLabelEn":  "Date",
+        "start":  "2022-05-09",
+        "finish":  "2022-05-09",
+        "lead":  "Izvedli smo sTOUdio zmenek z Martinom Petričem, oblikovalcem vizualnih komunikacij in inovatorjem, ki nas je popeljal na pot odkrivanja številnih dimenzij NFT aplikacij v turizmu in kulturi.",
+        "leadEn":  "We held a sTOUdio date with Martin Petrič, a visual communications designer and innovator, who took us on a journey of discovering the many dimensions of NFT applications in tourism and culture.",
+        "organizers":  [
+                           "Zarja Bašelj",
+                           "Rudi Medved"
+                       ],
+        "cover":  {
+                      "src":  "assets/img/recKsIK8l401YuK1U/01.jpg",
+                      "thumb":  "assets/img/recKsIK8l401YuK1U/01-t.jpg",
+                      "kind":  "image",
+                      "w":  909,
+                      "h":  512
+                  }
+    },
+    {
+        "id":  "reckVPhoUhDcXABua",
+        "slug":  "up-fts-stoudio-e-date-turistica-phd-student-vuly-nazim-hotelier-from-maldives",
+        "title":  "UP FTŠ sTOUdio e-date: Turistica PhD student Vuly Nazim - hotelier from Maldives",
+        "type":  "sTOUdio DATE",
+        "category":  "zmenki",
+        "catLabel":  "Zmenek",
+        "catLabelEn":  "Date",
+        "start":  "2022-04-25",
+        "finish":  "2022-04-25",
+        "lead":  "Izvedli smo sTOUdio zmenek z Vuly Nazim, doktorsko študentko na Fakulteti za turistične študije - Turistica, ki je spregovorila o svoji doktorski raziskavi, osredotočeni na vzdušje v gostinstvu in o njenem hotelskem poslu na Maldivih, od koder je doma.",
+        "leadEn":  "We held a sTOUdio date with Vuly Nazim, a PhD student at the Faculty of tourism studies - Turistica, who talked of her PhD research on Atmospherics in Hospitality and her hotel business in the Maldives, where she is originally from.",
+        "organizers":  [
+                           "Jaka Godejša",
+                           "Tajda Gradišnik",
+                           "Vuly Nazim"
+                       ],
+        "cover":  {
+                      "src":  "assets/img/reckVPhoUhDcXABua/01.jpg",
+                      "thumb":  "assets/img/reckVPhoUhDcXABua/01-t.jpg",
+                      "kind":  "image",
+                      "w":  1000,
+                      "h":  500
+                  }
+    },
+    {
+        "id":  "recb4ydlaqEj6NESw",
+        "slug":  "stoudio-date-bitcoin-digital-money",
+        "title":  "sTOUdio DATE - Bitcoin - Digital money",
+        "type":  "sTOUdio DATE",
+        "category":  "zmenki",
+        "catLabel":  "Zmenek",
+        "catLabelEn":  "Date",
+        "start":  "2022-04-07",
+        "finish":  "2022-04-07",
+        "lead":  "Izvedli smo sTOUdio zmenek z Andrejem P. Škrabo, ki nas je popeljal globlje v svet Bitcoina ₿ in Blockchain tehnologij.",
+        "leadEn":  "We held a sTOUdio date with Andrej P. Škraba, who took us deeper into the world of Bitcoin ₿ and Blockchain technologies.",
+        "organizers":  [
+                           "Tjaša Pristovšek",
+                           "Tajda Gradišnik",
+                           "Tilen Nipič",
+                           "Rudi Medved"
+                       ],
+        "cover":  {
+                      "src":  "assets/img/recb4ydlaqEj6NESw/01.jpg",
+                      "thumb":  "assets/img/recb4ydlaqEj6NESw/01-t.jpg",
+                      "kind":  "image",
+                      "w":  683,
+                      "h":  512
+                  }
+    },
+    {
+        "id":  "reczvucEIjjbbzwfp",
+        "slug":  "stoudio-trip-karra-team-building-karst",
+        "title":  "sTOUdio TRIP - Karra Team Building Karst",
+        "type":  "sTOUdio TRIP",
+        "category":  "izleti",
+        "catLabel":  "Izlet",
+        "catLabelEn":  "Trip",
+        "start":  "2022-04-01",
+        "finish":  "2022-04-01",
+        "lead":  "Odpeljali smo se na Kras, kjer sta naši študentki Tjaša in Anita predstavili svoje rešitve poslovnega izziva Vojke Žgavec Clemez. Na izletu ni manjkalo kraških dobrot, doživeli pa smo tudi tradicionalno osmico.",
+        "leadEn":  "We took a trip to Karst, where our students Tjaša and Anita presented their solutions to a business challenge from Vojka Žgavec Clemez. There was no lack of karst delicacies on the trip and we also experienced the traditional osmica.",
+        "organizers":  [
+                           "Tjaša Pristovšek",
+                           "Tajda Gradišnik",
+                           "Anita Sinjur",
+                           "Rudi Medved"
+                       ],
+        "cover":  {
+                      "src":  "assets/img/reczvucEIjjbbzwfp/01.jpg",
+                      "thumb":  "assets/img/reczvucEIjjbbzwfp/01-t.jpg",
+                      "kind":  "image",
+                      "w":  766,
+                      "h":  512
+                  }
+    },
+    {
+        "id":  "recAskf9Co9zF3oyM",
+        "slug":  "treasures-of-istria-copywriting-project",
+        "title":  "Treasures of Istria - Copywriting project",
+        "type":  "sTOUdio PROJECT",
+        "category":  "projekti",
+        "catLabel":  "Projekt",
+        "catLabelEn":  "Project",
+        "start":  "2022-02-27",
+        "finish":  "2022-06-28",
+        "lead":  "Študentje UP FTŠ sTOUdia Turistice so se ob sodelovanju z Zakladi Istre učili pisanja besedil, kjer so osvojili številne spretnosti pri pisanju in oblikovanju marketinških vsebin za turistična doživetja.",
+        "leadEn":  "The students of UP FTŠ sTOUdio Turistica, in cooperation with Treasures of Istria, learned of copywriting, where they acquired many skills in writing and designing marketing content for tourist experiences.",
+        "organizers":  [
+                           "Jaka Godejša",
+                           "Tilen Nipič",
+                           "Tjaša Pristovšek",
+                           "Tjaša Hajnžič"
+                       ],
+        "cover":  {
+                      "src":  "assets/img/recAskf9Co9zF3oyM/01.jpg",
+                      "thumb":  "assets/img/recAskf9Co9zF3oyM/01-t.jpg",
+                      "kind":  "image",
+                      "w":  512,
+                      "h":  683
+                  }
+    },
+    {
+        "id":  "rec2oCtHkYqY8T0IV",
+        "slug":  "stoudio-trip-invisible-lublana",
+        "title":  "sTOudio TRIP - Invisible Lublana",
+        "type":  "sTOUdio TRIP",
+        "category":  "izleti",
+        "catLabel":  "Izlet",
+        "catLabelEn":  "Trip",
+        "start":  "2022-02-25",
+        "finish":  "2022-02-25",
+        "lead":  "Na tokratnem sTOUdio izletu smo se udeležili vodenega ogleda Ljubljane skozi oči brezdomcev.",
+        "leadEn":  "On this sTOUdio trip we participated in a guided tour where we got to know Ljubljana through the eyes of the homeless.",
+        "organizers":  [
+                           "Tjaša Pristovšek",
+                           "Rudi Medved"
+                       ],
+        "cover":  {
+                      "src":  "assets/img/rec2oCtHkYqY8T0IV/01.jpg",
+                      "thumb":  "assets/img/rec2oCtHkYqY8T0IV/01-t.jpg",
+                      "kind":  "image",
+                      "w":  759,
+                      "h":  512
+                  }
+    },
+    {
+        "id":  "recxqpWW9by8n7nCe",
+        "slug":  "stoudio-date-storytelling-in-tourism",
+        "title":  "sTOUdio DATE - Storytelling in tourism",
+        "type":  "sTOUdio DATE",
+        "category":  "zmenki",
+        "catLabel":  "Zmenek",
+        "catLabelEn":  "Date",
+        "start":  "2022-02-23",
+        "finish":  "2022-02-23",
+        "lead":  "Izvedli smo sTOUdio zmenek z Vojko Žgavec Clemenz, strokovnjakinjo za pripovedovanje, ki nas je skozi zabavno tekmovanje poučila o prvinah pripovedovanja.",
+        "leadEn":  "We held a sTOUdio date with Vojka Žgavec Clemenz, an expert in storytelling, who taught us about the elements of storytelling through a fun competition.",
+        "organizers":  [
+                           "Tajda Gradišnik",
+                           "Rudi Medved",
+                           "Tjaša Pristovšek",
+                           "Borut Sergej Zupančič",
+                           "Tilen Nipič"
+                       ],
+        "cover":  {
+                      "src":  "assets/img/recxqpWW9by8n7nCe/01.jpg",
+                      "thumb":  "assets/img/recxqpWW9by8n7nCe/01-t.jpg",
+                      "kind":  "image",
+                      "w":  766,
+                      "h":  512
+                  }
+    },
+    {
+        "id":  "rec64IH5OK5BZL5jl",
+        "slug":  "karra-challenge-how-to-raise-demand-for-team-buildings-in-the-karst-region",
+        "title":  "Karra Challenge - how to raise demand for team-buildings in the Karst region",
+        "type":  "sTOUdio PROJECT",
+        "category":  "projekti",
+        "catLabel":  "Projekt",
+        "catLabelEn":  "Project",
+        "start":  "2022-02-23",
+        "finish":  "2022-04-01",
+        "lead":  "Del ekipe sTOUdia se je odpravil na Kras, da bi Vojki Žgavec Clemenz, strokovnjakinji na področju storytellinga in soustanoviteljici dveh lastnih blagovnih znamk Mmm Beatrice in Karra, predstavil svoje rešitve na vprašanje kako povečati povpraševanje po teambuildingih na Krasu.",
+        "leadEn":  "Part of the sTOUdio team travelled to Karst to present their solutions on how to raise demand for team-buildings in the region to Vojka Žgavec Clemenz, storytelling expert and co-founder of two of her own brands, Mmm Beatrice and Karra.",
+        "organizers":  [
+                           "Tjaša Pristovšek",
+                           "Anita Sinjur",
+                           "Tajda Gradišnik",
+                           "Rudi Medved"
+                       ],
+        "cover":  {
+                      "src":  "assets/img/rec64IH5OK5BZL5jl/01.jpg",
+                      "thumb":  "assets/img/rec64IH5OK5BZL5jl/01-t.jpg",
+                      "kind":  "image",
+                      "w":  766,
+                      "h":  512
+                  }
+    },
+    {
+        "id":  "rec2JEXwWzc8AV9x4",
+        "slug":  "touristology-on-off-the-internet",
+        "title":  "Touristology: On \u0026 Off the Internet",
+        "type":  "sTOUdio PROJECT",
+        "category":  "projekti",
+        "catLabel":  "Projekt",
+        "catLabelEn":  "Project",
+        "start":  "2022-01-31",
+        "finish":  "",
+        "lead":  "Touristology je edinstveno glasilo, ki so ga ustvarili naši študenti in čigar poslanstvo je raziskovanje človekovih prostočasnih dejavnosti na in izven interneta.",
+        "leadEn":  "Touristology is a unique newsletter created by our students whose mission is to explore human leisure activities on and off the Internet.",
+        "organizers":  [
+                           "Jaka Godejša",
+                           "Zarja Bašelj",
+                           "Gaja Šimić",
+                           "Tilen Nipič",
+                           "Dejan Krizaj"
+                       ],
+        "cover":  {
+                      "src":  "assets/img/rec2JEXwWzc8AV9x4/01.jpg",
+                      "thumb":  "assets/img/rec2JEXwWzc8AV9x4/01-t.jpg",
+                      "kind":  "image",
+                      "w":  862,
+                      "h":  512
+                  }
+    },
+    {
+        "id":  "rec0ZMnc950G7GEtP",
+        "slug":  "stoudio-trip-gems-of-the-pomurje-region",
+        "title":  "sTOUdio TRIP - Gems of the Pomurje region",
+        "type":  "sTOUdio TRIP",
+        "category":  "izleti",
+        "catLabel":  "Izlet",
+        "catLabelEn":  "Trip",
+        "start":  "2021-11-24",
+        "finish":  "2021-11-24",
+        "lead":  "Na tokratnem sTOUdio izletu smo si ogledali nekaj dobrih turističnih praks Pomurja.",
+        "leadEn":  "On this sTOUdio trip we visited some of the good tourism practices of the Pomurje region.",
+        "organizers":  [
+                           "Jaka Godejša",
+                           "Rudi Medved"
+                       ],
+        "cover":  {
+                      "src":  "assets/img/rec0ZMnc950G7GEtP/01.jpg",
+                      "thumb":  "assets/img/rec0ZMnc950G7GEtP/01-t.jpg",
+                      "kind":  "image",
+                      "w":  768,
+                      "h":  512
+                  }
+    },
+    {
+        "id":  "recVM6fohGzUtF78r",
+        "slug":  "stoudio-e-date-role-of-young-tourism-and-innovation-professionals-in-tomorrow-s-global-tourism",
+        "title":  "sTOUdio e-Date - Role of young tourism and innovation professionals in tomorrow’s global tourism",
+        "type":  "sTOUdio DATE",
+        "category":  "zmenki",
+        "catLabel":  "Zmenek",
+        "catLabelEn":  "Date",
+        "start":  "2021-09-21",
+        "finish":  "2021-09-21",
+        "lead":  "Izvedli smo mednarodni dogodek v okviru 29. Nordijskega simpozija na Islandiji, ki se je osredotočal na vlogo mladih turističnih in inovacijskih strokovnjakov v globalnem turizmu prihodnosti.",
+        "leadEn":  "We held an international event as part of the 29th Nordic Symposium in Iceland focused on the role of young tourism and innovation professionals in tomorrow’s global tourism.",
+        "organizers":  [
+                           "Anja Hrovatin",
+                           "Rudi Medved",
+                           "Dejan Krizaj"
+                       ],
+        "cover":  {
+                      "src":  "assets/img/recVM6fohGzUtF78r/01.jpg",
+                      "thumb":  "assets/img/recVM6fohGzUtF78r/01-t.jpg",
+                      "kind":  "image",
+                      "w":  910,
+                      "h":  512
+                  }
+    },
+    {
+        "id":  "recK70thQmg8zcz2U",
+        "slug":  "stoudio-trip-koroska-a-treasure-full-of-suprises",
+        "title":  "sTOUdio TRIP Koroška - A treasure full of suprises",
+        "type":  "sTOUdio TRIP",
+        "category":  "izleti",
+        "catLabel":  "Izlet",
+        "catLabelEn":  "Trip",
+        "start":  "2021-09-07",
+        "finish":  "2021-09-07",
+        "lead":  "Na tokratnem sTOUdio izletu smo obiskali Koroško in izkusili številne nepozabne posebnosti te regije.",
+        "leadEn":  "On this sTOUdio trip we visited Koroška and experienced the region\u0027s many unforgettable quirks.",
+        "organizers":  [
+                           "Rudi Medved",
+                           "Dejan Krizaj",
+                           "Gaja Šimić"
+                       ],
+        "cover":  {
+                      "src":  "assets/img/recK70thQmg8zcz2U/01.jpg",
+                      "thumb":  "assets/img/recK70thQmg8zcz2U/01-t.jpg",
+                      "kind":  "image",
+                      "w":  512,
+                      "h":  683
+                  }
+    },
+    {
+        "id":  "recurcilbNqANUkoH",
+        "slug":  "stoudio-trip-to-smokvica",
+        "title":  "sTOUdio TRIP to Smokvica",
+        "type":  "sTOUdio TRIP",
+        "category":  "izleti",
+        "catLabel":  "Izlet",
+        "catLabelEn":  "Trip",
+        "start":  "2021-08-07",
+        "finish":  "2021-08-07",
+        "lead":  "Na tokratnem sTOUdio izletu smo obiskali Smokvico in izkusili njeno pestro ponudbo. Videli smo, da ima to gručasto naselje veliko potenciala za razvoj edinstvenih izkušenj.",
+        "leadEn":  "On this sTOUdio trip we visited Smokvica and experienced its many offerings. We see this clustered settlement as having a lot of potential for developing unique experiences.",
+        "organizers":  [
+                           "Natalie Dariš"
+                       ],
+        "cover":  {
+                      "src":  "assets/img/recurcilbNqANUkoH/01.jpg",
+                      "thumb":  "assets/img/recurcilbNqANUkoH/01-t.jpg",
+                      "kind":  "image",
+                      "w":  683,
+                      "h":  512
+                  }
+    },
+    {
+        "id":  "rec7HK0Auu2LNA3an",
+        "slug":  "designing-experiences-for-the-emerging-tourist-attraction-pri-bobrih-rizana",
+        "title":  "Designing experiences for the emerging tourist attraction \"Pri Bobrih\" (Rižana)",
+        "type":  "sTOUdio PROJECT",
+        "category":  "projekti",
+        "catLabel":  "Projekt",
+        "catLabelEn":  "Project",
+        "start":  "2021-07-09",
+        "finish":  "",
+        "lead":  "Skupina študentov Turistice se je udeležila delavnice, kjer nas je g. Valter Krmac, lastnik nove turistične atrakcije »Pri Bobrih« v Rižanski dolini, popeljal skozi projektne načrte.",
+        "leadEn":  "A group of students from Turistica attended a workshop where Mr Valter Krmac, owner of the new tourist attraction \"Pri Bobrih\" (at the beavers\u0027) in Rižana valley, took us through the project plans.",
+        "organizers":  [
+                           "Ksenija Vodeb",
+                           "Dejan Krizaj"
+                       ],
+        "cover":  {
+                      "src":  "assets/img/rec7HK0Auu2LNA3an/01.jpg",
+                      "thumb":  "assets/img/rec7HK0Auu2LNA3an/01-t.jpg",
+                      "kind":  "image",
+                      "w":  960,
+                      "h":  540
+                  }
+    },
+    {
+        "id":  "reccDnL5PCMCOmKzm",
+        "slug":  "stoudio-e-date-young-people-for-the-future-of-tourism",
+        "title":  "sTOUdio e-DATE - Young people for the future of tourism",
+        "type":  "sTOUdio DATE",
+        "category":  "zmenki",
+        "catLabel":  "Zmenek",
+        "catLabelEn":  "Date",
+        "start":  "2021-05-17",
+        "finish":  "2021-05-17",
+        "lead":  "Izvedli smo sTOUdio zmenek na temo Vizija in vloga mladih v turizmu danes in jutri s štirimi mladimi in optimističnimi gosti s področja hotelirstva in turizma.",
+        "leadEn":  "We held a sTOUdio date on the topic of the Vision and Role of Young Professionals in Tourism Today and Tomorrow with four young and optimistic guests from the field of the hotel and tourism industry.",
+        "organizers":  [
+                           "Dejan Krizaj",
+                           "Rudi Medved",
+                           "Tajda Gradišnik",
+                           "Ula Gliha"
+                       ],
+        "cover":  {
+                      "src":  "assets/img/reccDnL5PCMCOmKzm/01.jpg",
+                      "thumb":  "assets/img/reccDnL5PCMCOmKzm/01-t.jpg",
+                      "kind":  "image",
+                      "w":  932,
+                      "h":  694
+                  }
+    },
+    {
+        "id":  "recPuFj1GLtWZxz8d",
+        "slug":  "stoudio-e-date-tehnologije-prihodnosti-v-turizmu",
+        "title":  "sTOUdio e-DATE - Tehnologije prihodnosti v turizmu",
+        "type":  "sTOUdio DATE",
+        "category":  "zmenki",
+        "catLabel":  "Zmenek",
+        "catLabelEn":  "Date",
+        "start":  "2021-05-04",
+        "finish":  "2021-05-04",
+        "lead":  "Izvedli smo sTOUdio zmenek, kjer smo zbrali ljubitelje tehnologije in turizma. Razmišljali smo, kako bodo sodobne tehnologije, kot sta Blockchain in NFT, vplivale na razvoj turistične industrije.",
+        "leadEn":  "We held a sTOUdio date where we gathered technology and tourism enthusiasts. We considered how modern technologies such as Blockchain and NFT will affect the development of the tourism industry.",
+        "organizers":  [
+                           "Dejan Krizaj",
+                           "Rudi Medved",
+                           "Jaka Godejša",
+                           "Tajda Gradišnik",
+                           "Ula Gliha"
+                       ],
+        "cover":  {
+                      "src":  "assets/img/recPuFj1GLtWZxz8d/01.jpg",
+                      "thumb":  "assets/img/recPuFj1GLtWZxz8d/01-t.jpg",
+                      "kind":  "image",
+                      "w":  949,
+                      "h":  512
+                  }
+    },
+    {
+        "id":  "recUmGdVMkQGlSRmL",
+        "slug":  "stoudio-date-franci-kek",
+        "title":  "sTOUdio DATE - Franci Kek",
+        "type":  "sTOUdio DATE",
+        "category":  "zmenki",
+        "catLabel":  "Zmenek",
+        "catLabelEn":  "Date",
+        "start":  "2021-03-28",
+        "finish":  "2021-03-28",
+        "lead":  "Skupina 5 študentov UP FTŠ Turistice je imela sTOUdio zmenek s Francijem Kekom, ki so ga obiskali v Dobu pri Domžalah. Razkazal jim je hišo iz leta 1797 in pripadajoča stanovanja ter jim pripovedoval o bogati zgodovini hiše.",
+        "leadEn":  "A group of 5 students of UP FTŠ Turistica had a sTOUdio date with Franci Kek, whom they visited in Dob near Domžale. He showed them the 1797 house and its apartments and told them about the rich history of the house.",
+        "organizers":  [
+                           "Rudi Medved",
+                           "Ula Gliha",
+                           "Tajda Gradišnik"
+                       ],
+        "cover":  {
+                      "src":  "assets/img/recUmGdVMkQGlSRmL/01.jpg",
+                      "thumb":  "assets/img/recUmGdVMkQGlSRmL/01-t.jpg",
+                      "kind":  "image",
+                      "w":  766,
+                      "h":  512
+                  }
+    },
+    {
+        "id":  "recWIlXkIXWbpavp8",
+        "slug":  "stoudio-e-date-dvorec-turn",
+        "title":  "sTOUdio e-DATE - Dvorec Turn",
+        "type":  "sTOUdio DATE",
+        "category":  "zmenki",
+        "catLabel":  "Zmenek",
+        "catLabelEn":  "Date",
+        "start":  "2021-03-20",
+        "finish":  "2021-03-20",
+        "lead":  "Izvedli smo spletni sTOUdio zmenek s Franjem Penkom, ki nam je predstavil grad Turn v Ilirski Bistrici, katerega lastnik je, in z Majo Uljan, direktorico TIC Ilirska Bistrica, ki nam je predstavila bližnji grad Prem.",
+        "leadEn":  "We held an online sTOUdio date with Franjo Penko, who presented us with the Turn Castle in Ilirska Bistrica which he owns, and with Maja Uljan, director of TIC Ilirska Bistrica, who presented us with the nearby Prem Castle.",
+        "organizers":  [
+                           "Dejan Krizaj",
+                           "Jaka Godejša",
+                           "Rudi Medved",
+                           "Tajda Gradišnik",
+                           "Neža Ivančič"
+                       ],
+        "cover":  {
+                      "src":  "assets/img/recWIlXkIXWbpavp8/01.jpg",
+                      "thumb":  "assets/img/recWIlXkIXWbpavp8/01-t.jpg",
+                      "kind":  "image",
+                      "w":  1357,
+                      "h":  1024
+                  }
+    },
+    {
+        "id":  "recYysRJ7xArG40ez",
+        "slug":  "mystoryfromzero",
+        "title":  "#MyStoryFromZero",
+        "type":  "sTOUdio PROJECT",
+        "category":  "projekti",
+        "catLabel":  "Projekt",
+        "catLabelEn":  "Project",
+        "start":  "2020-12-20",
+        "finish":  "",
+        "lead":  "#MyStoryFromZero je kampanja na družbenih omrežjih iniciative Locals From Zero z namenom organskega povečevanja baze sledilcev in širjenja zanimivih popotniških zgodb.",
+        "leadEn":  "#MyStoryFromZero is a campaign on the social networks of the initiative Locals From Zero with the aim to organically increase their follower base and spread interesting travel stories.",
+        "organizers":  [
+                           "Zarja Bašelj",
+                           "Rudi Medved",
+                           "Jaka Godejša",
+                           "Dejan Krizaj"
+                       ],
+        "cover":  {
+                      "src":  "assets/img/recYysRJ7xArG40ez/01.jpg",
+                      "thumb":  "assets/img/recYysRJ7xArG40ez/01-t.jpg",
+                      "kind":  "image",
+                      "w":  595,
+                      "h":  450
+                  }
+    },
+    {
+        "id":  "recoPMnTeT6YsXnI4",
+        "slug":  "wine-queen-2020",
+        "title":  "Wine Queen 2020",
+        "type":  "sTOUdio PROJECT",
+        "category":  "projekti",
+        "catLabel":  "Projekt",
+        "catLabelEn":  "Project",
+        "start":  "2020-11-22",
+        "finish":  "",
+        "lead":  "Anja Žagar Hrovatin z UP FTŠ Turistica in Vanja Simeunović z UP FM sta rešili izziv Slovenske vinske kraljice »Kako povečati prepoznavnost vinske kraljice v času krize COVID-19«, zato ju je 24. vinska kraljica Slovenije Ana Pavlin povabila k sodelovanju pri koordinaciji njenih poslovnih družbenih omrežjih.",
+        "leadEn":  "Anja Žagar Hrovatin of UP FTŠ Turistica and Vanja Simeunović of UP FM solved the Slovenian Wine Queen challenge \"How to raise the profile of the Wine Queen during the COVID-19 crisis\", which is why the 24th Wine Queen of Slovenia, Ana Pavlin, invited them to participate in the coordination of her business social networks.",
+        "organizers":  [
+                           "Anja Hrovatin",
+                           "Rudi Medved",
+                           "Dejan Krizaj"
+                       ],
+        "cover":  {
+                      "src":  "assets/img/recoPMnTeT6YsXnI4/01.jpg",
+                      "thumb":  "assets/img/recoPMnTeT6YsXnI4/01-t.jpg",
+                      "kind":  "image",
+                      "w":  208,
+                      "h":  300
+                  }
+    },
+    {
+        "id":  "rec0Nb8NagU0oCyM7",
+        "slug":  "stoudio-weekend-winefromzero-2020",
+        "title":  "sTOUdio WEEKEND WineFromZero 2020",
+        "type":  "sTOUdio WEEKEND",
+        "category":  "vikendi",
+        "catLabel":  "Vikend",
+        "catLabelEn":  "Weekend",
+        "start":  "2020-11-20",
+        "finish":  "2020-11-22",
+        "lead":  "Drugi sTOUdio vikend je potekal v virtualnem okolju in je bil namenjen reševanju poslovnih izzivov, povezanih s promocijo in prodajo vina.",
+        "leadEn":  "The second sTOUdio weekend took place in a virtual environment and was dedicated to solving business challenges related to the promotion and sale of wine.",
+        "organizers":  [
+                           "lucija drnovscek",
+                           "Živa Plevnik",
+                           "Katja Kosem",
+                           "Dejan Krizaj",
+                           "Miha Bratec",
+                           "Rudi Medved",
+                           "Tadej Rogelja"
+                       ],
+        "cover":  {
+                      "src":  "assets/img/rec0Nb8NagU0oCyM7/01.jpg",
+                      "thumb":  "assets/img/rec0Nb8NagU0oCyM7/01-t.jpg",
+                      "kind":  "image",
+                      "w":  615,
+                      "h":  348
+                  }
+    },
+    {
+        "id":  "recpykogNui9liHLj",
+        "slug":  "stoudio-trip-to-trbovlje",
+        "title":  "sTOUdio TRIP to Trbovlje",
+        "type":  "sTOUdio TRIP",
+        "category":  "izleti",
+        "catLabel":  "Izlet",
+        "catLabelEn":  "Trip",
+        "start":  "2020-09-19",
+        "finish":  "2020-09-19",
+        "lead":  "Na našem drugem sTOUdio izletu smo obiskali Trbovlje, se seznanili z zgodovino rudarjenja in preizkusili nekaj tematskih ogledov mesta.",
+        "leadEn":  "On our second sTOUdio trip we visited Trbovlje, learned of its history of mining and tested some thematic tours of the city.",
+        "organizers":  [
+                           "Rudi Medved"
+                       ],
+        "cover":  {
+                      "src":  "assets/img/recpykogNui9liHLj/01.jpg",
+                      "thumb":  "assets/img/recpykogNui9liHLj/01-t.jpg",
+                      "kind":  "image",
+                      "w":  1200,
+                      "h":  798
+                  }
+    },
+    {
+        "id":  "rechPbmH0witfcQit",
+        "slug":  "podcast-tourismfromzero",
+        "title":  "Podcast #TourismFromZero",
+        "type":  "sTOUdio PROJECT",
+        "category":  "projekti",
+        "catLabel":  "Projekt",
+        "catLabelEn":  "Project",
+        "start":  "2020-06-01",
+        "finish":  "",
+        "lead":  "Podkast #TourismFromZero je ena od idej, ki jih je podprla mentorska skupina iniciative #TourismFromZero in je nastal na pobudo enega od koordinatorjev ekipe #LocalsFromZero in magistrskega študenta FTŠ Turistice, Rudija Medveda.",
+        "leadEn":  "The #TourismFromZero podcast is one of the ideas supported by the mentoring group of the #TourismFromZero initiative and was initiated by one of the coordinators of the #LocalsFromZero team and an MSc student at the FTŠ Turistica, Rudi Medved.",
+        "organizers":  [
+                           "Rudi Medved",
+                           "Dejan Krizaj"
+                       ],
+        "cover":  {
+                      "src":  "assets/img/rechPbmH0witfcQit/01.jpg",
+                      "thumb":  "assets/img/rechPbmH0witfcQit/01-t.jpg",
+                      "kind":  "image",
+                      "w":  999,
+                      "h":  999
+                  }
+    },
+    {
+        "id":  "recshMTp7QfKyRF3g",
+        "slug":  "stoudio-e-date-marezige",
+        "title":  "sTOUdio e-DATE Marezige",
+        "type":  "sTOUdio DATE",
+        "category":  "zmenki",
+        "catLabel":  "Zmenek",
+        "catLabelEn":  "Date",
+        "start":  "2020-04-24",
+        "finish":  "2020-04-24",
+        "lead":  "Izvedli smo spletni sTOUdio zmenek z direktorjem Vinske fontane v Marezigah Alenom Babičem in krajinsko arhitektko Romano Kačič, skupaj z mentorjem dr. Dejanom Križajem in 13 našimi študenti, z vizijo postavitve foto točke pri Vinski fontani.",
+        "leadEn":  "We held an online sTOUdio date with the director of the Wine Fountain in Marezige Alen Babič and landscape architect Ms Romana Kačič, together with our mentor dr. Dejan Križaj and 13 of our students, with the vision of erecting a photo point at the Wine Fountain.",
+        "organizers":  [
+                           "Jaka Godejša",
+                           "Ajda Medvešek",
+                           "Marcel Višner",
+                           "Tadej Rogelja",
+                           "Dejan Krizaj"
+                       ],
+        "cover":  {
+                      "src":  "assets/img/recshMTp7QfKyRF3g/01.jpg",
+                      "thumb":  "assets/img/recshMTp7QfKyRF3g/01-t.jpg",
+                      "kind":  "image",
+                      "w":  1268,
+                      "h":  830
+                  }
+    },
+    {
+        "id":  "recqUMkDTpEpmJllr",
+        "slug":  "startup-localsfromzero",
+        "title":  "Startup #LocalsFromZero",
+        "type":  "sTOUdio STARTUP",
+        "category":  "startaupi",
+        "catLabel":  "Startup",
+        "catLabelEn":  "Startup",
+        "start":  "2020-04-15",
+        "finish":  "",
+        "lead":  "Študentski startup se je konec leta 2021 združil z mednarodno kooperativo Fairbnb.coop. Platforma za rezervacijo doživetij je bila v prvi vrsti zasnovana za zapostavljene periferne turistične ponudnike.",
+        "leadEn":  "The student start-up merged with the international Fairbnb.coop at the end of 2021. The experience booking platform was primarily designed for neglected peripheral tourism providers.",
+        "organizers":  [
+                           "Rudi Medved",
+                           "Tadej Rogelja",
+                           "Dejan Krizaj",
+                           "Miha Bratec",
+                           "Jaka Godejša",
+                           "Darja Primožič",
+                           "lucija drnovscek"
+                       ],
+        "cover":  {
+                      "src":  "assets/img/recqUMkDTpEpmJllr/01.jpg",
+                      "thumb":  "assets/img/recqUMkDTpEpmJllr/01-t.jpg",
+                      "kind":  "image",
+                      "w":  1200,
+                      "h":  900
+                  }
+    },
+    {
+        "id":  "rect6TwA6EdEd19FK",
+        "slug":  "stoudio-e-date-zelezniki",
+        "title":  "sTOUdio e-DATE Železniki",
+        "type":  "sTOUdio DATE",
+        "category":  "zmenki",
+        "catLabel":  "Zmenek",
+        "catLabelEn":  "Date",
+        "start":  "2020-04-15",
+        "finish":  "2020-04-15",
+        "lead":  "Izvedli smo spletni sTOUdio zmenek, kjer smo se odpravili na e-pohod po Železnikih pod vodstvom gostiteljice zmenka študentke Katje Kosem in mag. Špela Bertoncelj iz TD Vigenjc, Železniki.",
+        "leadEn":  "We held an online sTOUdio date where we went on an e-walk through Železniki under the guidance of the host of the date, the student Katja Kosem, and Mag. Špela Bertoncelj from TD Vigenjc, Železniki.",
+        "organizers":  [
+                           "Katja Kosem",
+                           "Tadej Rogelja",
+                           "Dejan Krizaj"
+                       ],
+        "cover":  {
+                      "src":  "assets/img/rect6TwA6EdEd19FK/01.jpg",
+                      "thumb":  "assets/img/rect6TwA6EdEd19FK/01-t.jpg",
+                      "kind":  "image",
+                      "w":  817,
+                      "h":  512
+                  }
+    },
+    {
+        "id":  "recVXUQo0GBZULzAB",
+        "slug":  "stoudio-translation-project",
+        "title":  "sTOUdio translation project",
+        "type":  "sTOUdio PROJECT",
+        "category":  "projekti",
+        "catLabel":  "Projekt",
+        "catLabelEn":  "Project",
+        "start":  "2020-04-13",
+        "finish":  "2020-06-12",
+        "lead":  "Pod mentorstvom sTOUdio mentorice dr. Tine Orel Frank in v sodelovanju z manjšimi lokalnimi turističnimi podjetji so študenti uredili, lektorirali in prevedli besedila spletnih strani iz slovenščine v angleščino.",
+        "leadEn":  "Under the mentorship of sTOUdio mentor dr. Tina Orel Frank and in collaboration with small local tourism businesses, students edited, proofread and translated website texts from Slovenian into English.",
+        "organizers":  [
+                           "Tadej Rogelja",
+                           "Dejan Krizaj"
+                       ],
+        "cover":  {
+                      "src":  "assets/img/recVXUQo0GBZULzAB/01.jpg",
+                      "thumb":  "assets/img/recVXUQo0GBZULzAB/01-t.jpg",
+                      "kind":  "image",
+                      "w":  1147,
+                      "h":  806
+                  }
+    },
+    {
+        "id":  "recfVjY1OOsEz4PAm",
+        "slug":  "stoudio-trip-innovative-stajerska-region",
+        "title":  "sTOUdio TRIP  Innovative Štajerska region",
+        "type":  "sTOUdio TRIP",
+        "category":  "izleti",
+        "catLabel":  "Izlet",
+        "catLabelEn":  "Trip",
+        "start":  "2020-03-07",
+        "finish":  "2020-03-07",
+        "lead":  "Na prvem sTOUdio izletu smo obiskali Štajersko, kjer smo spoznali inovativne oblike butične namestitve in se seznanili s številnimi izzivi, s katerimi se sooča regija pri uvajanju sprememb v lokalnem turističnem okolju.",
+        "leadEn":  "On the first sTOUdio trip we visited Štajerska, where we learned of innovative forms of boutique accommodation and were acquainted with the many challenges the region faces in implementing change in the local tourism environment.",
+        "organizers":  [
+                           "Dejan Krizaj",
+                           "Miha Bratec",
+                           "Tadej Rogelja"
+                       ],
+        "cover":  {
+                      "src":  "assets/img/recfVjY1OOsEz4PAm/01.jpg",
+                      "thumb":  "assets/img/recfVjY1OOsEz4PAm/01-t.jpg",
+                      "kind":  "image",
+                      "w":  1000,
+                      "h":  750
+                  }
+    },
+    {
+        "id":  "recOsUU2Mo2XpMpMQ",
+        "slug":  "website-optimization-tourslove-sea-happy-kids-2019-2020",
+        "title":  "Website optimization Tourslove-SEA HAPPY KIDS 2019-2020",
+        "type":  "sTOUdio PROJECT",
+        "category":  "projekti",
+        "catLabel":  "Projekt",
+        "catLabelEn":  "Project",
+        "start":  "2020-03-01",
+        "finish":  "2020-06-01",
+        "lead":  "Mihaela Rupnik Cek, nekdanja študentka Turistice, je sTOUdio Turistica prosila za pomoč pri izdelavi spletne strani MORjE HAPPY KIDS za promocijo ponudbe tematskih poti za družine in animacijskih programov za otroke v Slovenski Istri.",
+        "leadEn":  "sTOUdio Turistica was asked for help by Mihaela Rupnik Cek, a former Turistica student, in creating the MORjE HAPPY KIDS website to promote the range of themed trails for families and animation programs for children at Slovenian Istria.",
+        "organizers":  [
+                           "Miha Bratec"
+                       ],
+        "cover":  {
+                      "src":  "assets/img/recOsUU2Mo2XpMpMQ/01.jpg",
+                      "thumb":  "assets/img/recOsUU2Mo2XpMpMQ/01-t.jpg",
+                      "kind":  "image",
+                      "w":  273,
+                      "h":  185
+                  }
+    },
+    {
+        "id":  "recY01vbkK8azOqpi",
+        "slug":  "stoudio-date-kras",
+        "title":  "sTOUdio DATE Kras",
+        "type":  "sTOUdio DATE",
+        "category":  "zmenki",
+        "catLabel":  "Zmenek",
+        "catLabelEn":  "Date",
+        "start":  "2020-02-13",
+        "finish":  "2020-02-13",
+        "lead":  "Šli smo na sTOUdio zmenek na Kras, kamor nas je povabil Tadej Rogelja na obisk njegove družinske zeliščne kmetije, potem ko je magistriral na temo Herbal Glampinga.",
+        "leadEn":  "We went on a sTOUdio date in the Karst, where we were invited by Tadej Rogelja to visit his family\u0027s herb farm after he received his Master\u0027s degree on the topic of Herbal Glamping.",
+        "organizers":  [
+                           "Tadej Rogelja",
+                           "Dejan Krizaj",
+                           "Miha Bratec"
+                       ],
+        "cover":  {
+                      "src":  "assets/img/recY01vbkK8azOqpi/01.jpg",
+                      "thumb":  "assets/img/recY01vbkK8azOqpi/01-t.jpg",
+                      "kind":  "image",
+                      "w":  1000,
+                      "h":  750
+                  }
+    },
+    {
+        "id":  "recMNWVAjyfxiH48w",
+        "slug":  "stoudio-date-celje",
+        "title":  "sTOUdio DATE Celje",
+        "type":  "sTOUdio DATE",
+        "category":  "zmenki",
+        "catLabel":  "Zmenek",
+        "catLabelEn":  "Date",
+        "start":  "2020-01-24",
+        "finish":  "2020-01-24",
+        "lead":  "V Celjskem mladinskem centru (MCC) smo izvedli prvi sTOUdio zmenek, kjer smo z razgledanimi sedanjimi in bivšimi študenti razpravljali o nujnosti novih pristopov k digitalnemu marketingu.",
+        "leadEn":  "We held our first sTOUdio date at Celje Youth Centre (MCC), where we discussed the need for new approaches to digital content marketing with knowledgeable current and former students.",
+        "organizers":  [
+                           "Dejan Krizaj",
+                           "Tadej Rogelja",
+                           "Miha Bratec"
+                       ],
+        "cover":  {
+                      "src":  "assets/img/recMNWVAjyfxiH48w/01.jpg",
+                      "thumb":  "assets/img/recMNWVAjyfxiH48w/01-t.jpg",
+                      "kind":  "image",
+                      "w":  1200,
+                      "h":  899
+                  }
+    },
+    {
+        "id":  "recgmQdNRha4SE94f",
+        "slug":  "wine-fountain-marezige",
+        "title":  "Wine Fountain Marezige",
+        "type":  "sTOUdio PROJECT",
+        "category":  "projekti",
+        "catLabel":  "Projekt",
+        "catLabelEn":  "Project",
+        "start":  "2019-10-19",
+        "finish":  "2022-04-16",
+        "lead":  "Idejna zasnova za novo turistično atrakcijo v Marezigah je nastala na sTOUdio vikendu oktobra 2019. Aprila 2022 smo ponosno otovorili novo pridobitev.",
+        "leadEn":  "The conceptual design for the new tourist attraction in Marezige was created at the sTOUdio weekend in October 2019. In April 2022, we proudly unveiled the new attraction.",
+        "organizers":  [
+                           "Jaka Godejša",
+                           "Ajda Medvešek"
+                       ],
+        "cover":  {
+                      "src":  "assets/img/recgmQdNRha4SE94f/01.jpg",
+                      "thumb":  "assets/img/recgmQdNRha4SE94f/01-t.jpg",
+                      "kind":  "image",
+                      "w":  512,
+                      "h":  683
+                  }
+    },
+    {
+        "id":  "reckTh8uEMS9fxgk6",
+        "slug":  "stoudio-vikend-slovenska-istra-2019",
+        "title":  "sTOUdio VIKEND Slovenska Istra 2019",
+        "type":  "sTOUdio WEEKEND",
+        "category":  "vikendi",
+        "catLabel":  "Vikend",
+        "catLabelEn":  "Weekend",
+        "start":  "2019-10-19",
+        "finish":  "2019-10-20",
+        "lead":  "Preko 40 aktivnih in bivših študentov UP FTŠ Turistica se je zbralo na prvem sTOUdio vikendu, kjer so reševali izzive v zvezi z razvojem novih turističnih produktov slovenske Istre.",
+        "leadEn":  "Over 40 active and former students of UP FTŠ Turistica came together at the first sTOUdio weekend, where they solved challenges in relation to the development of new tourist products from Slovenian Istria.",
+        "organizers":  [
+                           "Dejan Krizaj",
+                           "Miha Bratec",
+                           "Tadej Rogelja",
+                           "Peter Kopić"
+                       ],
+        "cover":  {
+                      "src":  "assets/img/reckTh8uEMS9fxgk6/01.jpg",
+                      "thumb":  "assets/img/reckTh8uEMS9fxgk6/01-t.jpg",
+                      "kind":  "image",
+                      "w":  683,
+                      "h":  512
+                  }
+    },
+    {
+        "id":  "recLVG7rYLL9UipuV",
+        "slug":  "roundabout-analysis-of-the-offer-and-5-experiences",
+        "title":  "Roundabout - analysis of the offer and 5* experiences",
+        "type":  "sTOUdio PROJECT",
+        "category":  "projekti",
+        "catLabel":  "Projekt",
+        "catLabelEn":  "Project",
+        "start":  "2019-01-15",
+        "finish":  "2019-03-15",
+        "lead":  "Potovalna agencija TJs in Travel Roundabout je našim študentom postavila izziv. Izvedli so tri spletne ankete in pripravili podrobna poročila, ki so jih predstavili naročniku.",
+        "leadEn":  "Travel agency TJs and Travel Roundabout gave our students a challenge. They conducted three online surveys and prepared detailed reports that were presented to the client.",
+        "organizers":  [
+                           "denis turnsek",
+                           "Zdravka Jamnik",
+                           "Peter Kopić",
+                           "Dejan Krizaj"
+                       ],
+        "cover":  {
+                      "src":  "assets/img/recLVG7rYLL9UipuV/01.jpg",
+                      "thumb":  "assets/img/recLVG7rYLL9UipuV/01-t.jpg",
+                      "kind":  "image",
+                      "w":  599,
+                      "h":  512
+                  }
+    }
+]

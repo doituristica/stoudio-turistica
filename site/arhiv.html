@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="sl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Arhiv aktivnosti — UP FTŠ sTOUdio Turistica</title>
+<meta name="description" content="Arhiv vseh sTOUdio aktivnosti 2018–2023 na enem mestu — zmenki, izleti, pogovori, vikendi, projekti in startupi.">
+<link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+<link rel="alternate" hreflang="sl" href="arhiv.html">
+<link rel="alternate" hreflang="en" href="en/archive.html">
+<link rel="preload" href="assets/fonts/noto-sans-subset.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/brand/hero-2.jpg" as="image" fetchpriority="high">
+<link rel="stylesheet" href="assets/css/fonts.css">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="arhiv">
+<a class="skip-link" href="#main">Preskoči na vsebino</a>
+<header id="site-header"></header>
+
+<main id="main">
+  <section class="hero hero--compact" style="background-image:url('assets/brand/hero-2.jpg')">
+    <div class="wrap">
+      <h1>Arhiv aktivnosti</h1>
+      <p>Arhiv vseh sTOUdio aktivnosti na enem mestu.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="toolbar">
+        <label class="visually-hidden" for="archive-search">Iskanje po aktivnostih</label>
+        <input type="search" id="archive-search" placeholder="Išči po naslovu, opisu, letu ali organizatorju…" autocomplete="off">
+        <div class="chips" id="archive-chips"></div>
+      </div>
+      <p class="result-count" id="archive-count"></p>
+      <div id="archive-list"></div>
+    </div>
+  </section>
+</main>
+
+<footer id="site-footer"></footer>
+<script src="assets/js/site.js"></script>
+</body>
+</html>

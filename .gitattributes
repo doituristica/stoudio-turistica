@@ -1,0 +1,16 @@
+# Besedilne datoteke se v repozitoriju hranijo z LF, da so enake na Windowsu in
+# na strežniku (Linux). Brez tega se ob prenosu pojavijo razlike v vsaki vrstici.
+* text=auto eol=lf
+
+# PowerShell skripte ostanejo CRLF - Windows PowerShell 5.1 je pri tem občutljiv.
+*.ps1 text eol=crlf
+
+# Binarne datoteke se ne smejo popravljati.
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.webp binary
+*.mp4  binary
+*.woff2 binary
+*.xlsx binary

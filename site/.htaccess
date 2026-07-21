@@ -1,0 +1,68 @@
+# Apache konfiguracija za UP FTŠ sTOUdio Turistica.
+# Datoteka je potrebna samo na Apache strežniku (tipično univerzitetni gostitelj).
+# Netlify in Cloudflare Pages jo ignorirata - tam isto delo opravi datoteka _headers.
+#
+# Stran je popolnoma statična: brez PHP, brez baze, brez Node.js.
+# Zadošča, da je vsebina mape site/ v korenu spletnega prostora.
+
+# --- privzeta stran ---------------------------------------------------------
+DirectoryIndex index.html
+
+# --- kodiranje --------------------------------------------------------------
+AddDefaultCharset UTF-8
+AddType application/json .json
+AddType font/woff2 .woff2
+AddType image/svg+xml .svg
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # --- URL-ji brez končnice: /zmenki -> /zmenki.html ------------------------
+  # Obstoječe datoteke in mape pustimo pri miru.
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME}.html -f
+  RewriteRule ^(.+?)/?$ $1.html [L]
+
+  # --- stare Softr povezave -------------------------------------------------
+  # /aktivnosti?recordId=recXXXX  ->  /aktivnost.html?id=recXXXX
+  # Preusmeritev opravi tudi aktivnosti.html sam, to je le hitrejša različica.
+  RewriteCond %{QUERY_STRING} (?:^|&)recordId=(rec[A-Za-z0-9]+)
+  RewriteRule ^aktivnosti/?$ /aktivnost.html?id=%1 [R=301,L]
+</IfModule>
+
+# --- stran za neobstoječe naslove -------------------------------------------
+ErrorDocument 404 /404.html
+
+# --- predpomnjenje ----------------------------------------------------------
+# Slike, pisave in logotipi se ne spreminjajo, zato jih brskalnik lahko drži leto dni.
+# HTML in JSON morata ostati sveža, da so popravki takoj vidni.
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/jpeg              "access plus 1 year"
+  ExpiresByType image/png               "access plus 1 year"
+  ExpiresByType image/svg+xml           "access plus 1 year"
+  ExpiresByType video/mp4               "access plus 1 year"
+  ExpiresByType font/woff2              "access plus 1 year"
+  ExpiresByType text/css                "access plus 1 week"
+  ExpiresByType application/javascript  "access plus 1 week"
+  ExpiresByType application/json        "access plus 1 hour"
+  ExpiresByType text/html               "access plus 0 seconds"
+</IfModule>
+
+# --- stiskanje --------------------------------------------------------------
+# Slike so že stisnjene, besedilne datoteke pa se z gzipom skrčijo za ~70 %.
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml
+  AddOutputFilterByType DEFLATE application/javascript application/json
+  AddOutputFilterByType DEFLATE image/svg+xml
+</IfModule>
+
+# --- osnovna varnostna glava ------------------------------------------------
+<IfModule mod_headers.c>
+  Header set X-Content-Type-Options "nosniff"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+  <FilesMatch "\.woff2$">
+    Header set Access-Control-Allow-Origin "*"
+  </FilesMatch>
+</IfModule>
