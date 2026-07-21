@@ -1,5 +1,8 @@
 # sTOUdio Turistica — statična spletna stran
 
+**Živ predogled:** <https://g0dex.github.io/stoudio-turistica/>
+
+
 Poustvarjena različica [stoudio.turistica.si](https://stoudio.turistica.si/) kot **popolnoma statična
 dvojezična stran** brez Softra, brez Airtable naročnine in brez strežniške logike. Vse podatke in
 slike ima lokalno, zato jo lahko gostiš zastonj (GitHub Pages, Netlify, Cloudflare Pages, ali kar

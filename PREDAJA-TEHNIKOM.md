@@ -15,7 +15,9 @@ lahko prilepiš v e-pošto.
 > ukinjamo. Pripravili smo nadomestno, popolnoma statično različico z enako vsebino
 > in prosim za pomoč pri prenosu na naš strežnik.
 >
-> **Živ predogled:** `<sem prilepi povezavo do GitHub Pages>`
+> **Živ predogled:** https://g0dex.github.io/stoudio-turistica/
+>
+> **Izvorna koda:** https://github.com/g0dex/stoudio-turistica
 >
 > **Kaj stran potrebuje:** nič posebnega. Gre za statične datoteke — HTML, CSS,
 > JavaScript in slike. **Brez PHP, brez podatkovne baze, brez Node.js**, brez
