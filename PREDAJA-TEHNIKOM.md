@@ -1,136 +1,133 @@
-# Predajno pismo za univerzitetno IT službo
+# Prošnja za spremembo DNS zapisa
 
-Kratek tehnični opis strani in kaj je treba narediti. Vsebino spodnjega osnutka
-lahko prilepiš v e-pošto.
+Stran sTOUdio Turistica je pripravljena in že teče. Za prehod s Softra je potrebna
+**ena sprememba v DNS-u** — vsebine ni treba prenašati na noben strežnik.
+
+- **Živ predogled:** https://g0dex.github.io/stoudio-turistica/
+- **Izvorna koda:** https://github.com/g0dex/stoudio-turistica
 
 ---
 
 ## Osnutek e-pošte
 
-> **Zadeva:** Prenos strani sTOUdio Turistica na univerzitetni strežnik
+> **Zadeva:** Sprememba DNS zapisa za stoudio.turistica.si
 >
 > Pozdravljeni,
 >
 > stran **stoudio.turistica.si** trenutno teče na zunanji platformi Softr, ki jo
-> ukinjamo. Pripravili smo nadomestno, popolnoma statično različico z enako vsebino
-> in prosim za pomoč pri prenosu na naš strežnik.
+> ukinjamo. Pripravili smo nadomestno statično različico z enako vsebino, ki je že
+> objavljena in deluje:
 >
-> **Živ predogled:** https://g0dex.github.io/stoudio-turistica/
+> **https://g0dex.github.io/stoudio-turistica/**
 >
-> **Izvorna koda:** https://github.com/g0dex/stoudio-turistica
+> Gostuje na GitHub Pages, kar za nas pomeni brez stroškov in brez vzdrževanja
+> strežnika. Prosim za **eno spremembo v DNS coni `turistica.si`**:
 >
-> **Kaj stran potrebuje:** nič posebnega. Gre za statične datoteke — HTML, CSS,
-> JavaScript in slike. **Brez PHP, brez podatkovne baze, brez Node.js**, brez
-> kakršnihkoli procesov v ozadju. Zadošča navaden spletni prostor.
+> ```
+> briši:   stoudio   A       35.158.87.123
+> dodaj:   stoudio   CNAME   g0dex.github.io.
+> ```
 >
-> **Kaj je treba narediti:**
+> Če vaš sistem za to ime ne dovoli zapisa CNAME, delujejo tudi štirje A zapisi:
 >
-> 1. Vsebino mape `site/` prekopirati v koren spletnega prostora za to domeno.
->    (Pozor: vsebino mape, ne mape same — `index.html` mora biti v korenu.)
-> 2. Poskrbeti, da se prenesejo tudi datoteke, ki se začnejo s piko — `.htaccess`
->    in `.nojekyll`. FTP odjemalci jih pogosto skrijejo.
-> 3. Domeno `stoudio.turistica.si` preusmeriti s Softra na ta strežnik.
-> 4. Urediti HTTPS certifikat za domeno.
+> ```
+> stoudio   A   185.199.108.153
+> stoudio   A   185.199.109.153
+> stoudio   A   185.199.110.153
+> stoudio   A   185.199.111.153
+> ```
 >
-> **Prosim, da Softra ne ugašamo, dokler nova stran ne deluje na domeni** — sicer
-> bo stran vmes nedosegljiva.
+> **HTTPS ni treba urejati.** GitHub po spremembi sam pridobi in obnavlja
+> certifikat Let's Encrypt. Preveril sem, da v coni ni zapisov CAA, ki bi to
+> blokirali.
 >
-> Podrobnosti so spodaj. Za vprašanja sem na voljo.
+> **Prosim, da mi javite, ko bo zapis spremenjen** — takoj zatem moram v GitHubu
+> potrditi domeno, sicer stran na njej ne bo delovala. Softr bomo ugasnili šele
+> potem, ko bo nova stran na domeni preverjeno delovala, da vmes ni izpada.
 >
-> Lep pozdrav,
+> Hvala in lep pozdrav,
 > Jaka Godejša
+> `<sem vpiši svoj službeni e-naslov>`
+
+> Namenoma brez e-naslova v tej datoteki: repozitorij je javen in naslovi v njem
+> se hitro znajdejo na spam seznamih. Vpiši ga šele v e-pošto.
 
 ---
 
-## Tehnične podrobnosti
+## Vrstni red — pomembno
 
-### Obseg
+1. **IT spremeni DNS zapis.** Razširjanje traja od nekaj minut do nekaj ur.
+2. **Šele nato** se v GitHubu nastavi domena po meri (`Settings → Pages → Custom domain`,
+   ali z ukazom spodaj). Prej tega ne delaj — GitHub bi začel predogledno povezavo
+   preusmerjati na domeno, ki še ne dela, in ostal bi brez delujočega predogleda.
+3. GitHub izda certifikat (nekaj minut do 24 ur), nato se vklopi **Enforce HTTPS**.
+4. **Softr se ugasne zadnji**, ko nova stran na domeni preverjeno dela.
+
+Ukaz za drugi korak (ko DNS že kaže na GitHub):
+
+```powershell
+gh api -X PUT repos/g0dex/stoudio-turistica/pages -f cname=stoudio.turistica.si
+```
+
+Nato preveri stanje certifikata:
+
+```powershell
+gh api repos/g0dex/stoudio-turistica/pages
+```
+
+---
+
+## Zakaj DNS namesto prenosa na strežnik
+
+| | GitHub Pages | Univerzitetni strežnik |
+|---|---|---|
+| Delo za IT | ena vrstica v DNS-u | prenos datotek, Apache, certifikat |
+| Strošek | 0 | 0 (že plačan) |
+| Vzdrževanje | nič | posodobitve strežnika, obnova certifikata |
+| HTTPS | samodejno | ročno |
+| Hitrost | globalni CDN | en strežnik |
+| Nadzor | GitHub | univerza |
+
+Prenos na strežnik ostaja odprt kadarkoli — v repozitoriju sta že pripravljeni
+datoteki `site/.htaccess` (Apache) in `site/_headers` (Netlify/Cloudflare), navodila
+za nginx pa so v `README.md`. Preseliti pomeni prekopirati mapo `site/`; nič drugega
+se ne spremeni.
+
+---
+
+## Kaj je treba urediti na naši strani
+
+Repozitorij je zaenkrat na **osebnem računu** `g0dex`. Za arhiv fakultetnega programa
+to ni dobro — če račun ugasne ali se lastnik odseli, fakulteta izgubi stran in nima
+nobenega vzvoda.
+
+Priporočen popravek (brezplačen, ~10 minut):
+
+1. Na <https://github.com/account/organizations/new> ustvari brezplačno organizacijo,
+   npr. `ftsturistica` ali `stoudio-turistica`.
+2. Povabi vsaj še enega lastnika s fakultete (npr. Dejana Križaja kot idejnega vodjo).
+3. Repozitorij prenesi v organizacijo:
+   `Settings → General → Danger Zone → Transfer ownership`.
+4. Po prenosu se spremeni tudi naslov predogleda in cilj CNAME zapisa —
+   `g0dex.github.io` postane `<organizacija>.github.io`. **Zato to naredi pred
+   prošnjo za DNS**, da tehnikom ni treba spreminjati dvakrat.
+
+Po prenosu ostaneš vzdrževalec z vsemi pravicami, lastništvo pa je institucionalno.
+
+---
+
+## Tehnični opis strani
 
 | | |
 |---|---|
-| Velikost | ~32 MB |
-| Število datotek | ~350 |
-| Največja datoteka | 12,4 MB (MP4 video v enem zapisu) |
+| Velikost | ~32 MB, ~350 datotek |
 | Tehnologija | statični HTML, CSS, JavaScript |
 | Odvisnosti | **nobene** — brez PHP, baze, Node.js, zunanjih CDN-jev |
+| Vsebina | 44 aktivnosti (2018–2023), 151 fotografij, 1 video |
+| Jezika | slovenščina in angleščina |
 
-Stran ne kliče nobene zunanje storitve. Pisave, slike in podatki so lokalni,
-zato deluje tudi na omrežju brez dostopa do interneta.
+Stran ne kliče nobene zunanje storitve — pisave, slike in podatki so lokalni.
 
-### Struktura
-
-```
-site/                     ← vsebina te mape gre v koren spletnega prostora
-  index.html              domača stran (slovensko)
-  en/index.html           angleška različica
-  aktivnost.html          podrobnosti aktivnosti
-  data/*.json             vsebina 44 aktivnosti
-  assets/                 slike, pisave, CSS, JavaScript
-  .htaccess               konfiguracija za Apache (glej spodaj)
-  404.html   robots.txt   sitemap.xml
-```
-
-### Zahteve strežnika
-
-- Kateri koli spletni strežnik, ki streže statične datoteke (Apache, nginx, IIS).
-- Priporočeno: Apache z omogočenimi moduli `mod_rewrite`, `mod_expires`,
-  `mod_deflate` in `mod_headers`. Priložena datoteka `.htaccess` jih uporabi za
-  lepše naslove, predpomnjenje in stiskanje.
-- **Če ti moduli niso na voljo, stran vseeno deluje** — le naslovi bodo vsebovali
-  končnico `.html` in nalaganje bo nekoliko počasnejše. `.htaccess` v tem primeru
-  brez škode ignorirajte.
-- Strežnik mora streči `.json` in `.woff2` z ustreznim MIME tipom. `.htaccess`
-  to nastavi sam, sicer je treba dodati:
-  `application/json .json` in `font/woff2 .woff2`.
-
-### Če je strežnik nginx
-
-`.htaccess` na nginxu ne deluje. Enakovredna konfiguracija:
-
-```nginx
-server {
-    root /pot/do/site;
-    index index.html;
-
-    # URL-ji brez končnice
-    location / {
-        try_files $uri $uri.html $uri/ =404;
-    }
-
-    error_page 404 /404.html;
-
-    # predpomnjenje
-    location ~* \.(jpg|jpeg|png|svg|webp|mp4|woff2)$ {
-        expires 1y;
-        add_header Cache-Control "public, immutable";
-    }
-    location ~* \.(css|js)$ { expires 7d; }
-    location ~* \.json$     { expires 1h; }
-
-    gzip on;
-    gzip_types text/css application/javascript application/json image/svg+xml;
-}
-```
-
-### Ohranitev obstoječih povezav
-
-Softr je posamezne aktivnosti objavljal na naslovih oblike
-`stoudio.turistica.si/aktivnosti?recordId=recXXXX`. Ti naslovi so razposlani po
-družbenih omrežjih in indeksirani v iskalnikih.
-
-Nova stran jih lovi na dva načina — datoteka `aktivnosti.html` preusmeri sama,
-`.htaccess` pa naredi isto s pravilom `301`. Ni potrebno nič dodatnega, samo
-prepričajte se, da je datoteka `aktivnosti.html` prenesena.
-
-### Posodabljanje vsebine
-
-Stran je arhiv zaključenega programa (2018–2023), zato posodobitev praktično ne bo.
-Če pride do popravka, se spremeni datoteka `site/data/activities.json` in prenese
-na strežnik — nič drugega.
-
-### Kontakt za vsebino
-
-Jaka Godejša — `<sem vpiši svoj službeni e-naslov>`
-
-> Namenoma brez e-naslova: repozitorij je javen in naslovi v njem se hitro znajdejo
-> na spam seznamih. Vpiši ga šele v e-pošto tehnikom, ne v to datoteko.
+**Stare povezave ostanejo žive.** Softr je aktivnosti objavljal na naslovih
+`stoudio.turistica.si/aktivnosti?recordId=recXXXX`; ti so razposlani po družbenih
+omrežjih in indeksirani v iskalnikih. Nova stran jih samodejno preusmeri na pravo mesto.

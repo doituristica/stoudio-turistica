@@ -53,12 +53,19 @@ Odpri <http://localhost:8080>. Strežnik podpira tudi URL-je brez končnice
 
 ## Objava
 
+**Trenutno stanje:** stran teče na GitHub Pages in se objavi sama ob vsakem pushu na
+`main` (workflow [.github/workflows/deploy-pages.yml](.github/workflows/deploy-pages.yml)).
+Za prehod domene `stoudio.turistica.si` s Softra je potrebna samo ena sprememba DNS
+zapisa — postopek in osnutek prošnje sta v [PREDAJA-TEHNIKOM.md](PREDAJA-TEHNIKOM.md).
+
+Druge možnosti, če bi se kdaj selili:
+
 | Gostovanje | Kako | Opomba |
 |---|---|---|
-| **Cloudflare Pages** | povleci mapo `site/` v dashboard | priporočeno; URL-ji brez končnice in `_headers` delujejo sami |
+| **GitHub Pages** | že nastavljeno | samodejna objava ob pushu, brezplačen HTTPS |
+| **Cloudflare Pages** | povleci mapo `site/` v dashboard | URL-ji brez končnice in `_headers` delujejo sami |
 | **Netlify** | povleci mapo `site/` na netlify.com/drop | isto |
-| **GitHub Pages** | commitaj `site/` in ga nastavi kot izvor | URL-ji **potrebujejo** `.html`; `_headers` se ignorira |
-| **Obstoječi strežnik Turistice** | prekopiraj vsebino `site/` v koren | najbolj smiselno, če ohraniš domeno |
+| **Strežnik Turistice** | prekopiraj vsebino `site/` v koren | `site/.htaccess` je že pripravljen za Apache |
 
 Pred objavo poženi sitemap s pravo domeno in popravi vrstico `Sitemap:` v `site/robots.txt`,
 če se domena razlikuje:
